@@ -4,6 +4,7 @@
 2. What is accesibility
 3. Understanding the diversity of users
 4. using a screen reader
+5. Checklists
 
 ## Intro
 
@@ -98,3 +99,44 @@ to use the built in screen reader, chromevox
 `ctrl + alt + z` to turn on chromevox on or off from any web page
 
 on tablet press and hold `volume down + volume up` button for 5 seconds
+
+## Checklists
+
+need a roadmap for this journey
+
+WCAG - WEB Content Accessibility Guidelines 2.0
+set of guidelines and best practices put together by experts to answer question what accessibility means 
+
+some countries mandate use of these guidleiens in their legal requirements
+
+4 core pricniples (POUR)
+
+1. Perceivable: just because something is perceivable with one sense like sight doesnt mean all users can perceive it
+2. Operable: can users use ui components and navigate the content eg something requires hover interaction cannot be oeprated by someone who cant use a mouse or touch screen
+3. Understandable: scan users understand the content and the user interface
+4. Robust: robust enough for content to be consumed by wide range of users and does it work with assiested technology
+
+WCAG can be overwhelimg
+
+they have condensed it into a checklist
+WebAIM accessibility checklist
+Webbing checklist is a good summary
+
+https://www.w3.org/TR/WCAG20/ 
+
+http://webaim.org/standards/wcag/checklist
+
+what actually matters is the user experience
+
+guidleiens may be incomplete 
+
+as long as project is meeting outlined criteria our users should have a positive experience 
+
+## Conclusion
+
+now create some accessible code
+3 main topics:
+
+1. focus and keyboard: hwo to make sure we build things that can be operated with a keyboard. important for people with motor impairmenets
+2. semantics: make sure expressing interface in a robust way
+3. Styling and visual design
